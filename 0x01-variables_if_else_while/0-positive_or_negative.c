@@ -1,6 +1,6 @@
-#include <stdlib>
+#include <stdlib.h>
 #include <time.h>
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main- Entry here
@@ -10,6 +10,7 @@
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
