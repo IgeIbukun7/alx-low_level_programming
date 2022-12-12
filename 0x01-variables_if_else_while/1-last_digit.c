@@ -19,7 +19,7 @@ int main(void)
 	if (n % 10 > 5)
 	{
 
-	printf("Last digit of %i is %i and is greater than 5 and not 0\n", n, LD);
+	printf("Last digit of %i is %i and is greater than 5\n", n, LD);
 
 	}
 	else if (n % 10 == 0)
